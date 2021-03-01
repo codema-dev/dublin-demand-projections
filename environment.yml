@@ -1,0 +1,14 @@
+  name: dbs
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - dask
+  - pandas
+  - geopandas
+  - pyarrow>=2.0.0
+
+  # dev dependencies
+  - poetry
+  - jupytext
+  - ipykernel
