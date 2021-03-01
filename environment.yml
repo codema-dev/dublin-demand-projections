@@ -6,6 +6,8 @@ dependencies:
   - dask
   - pandas
   - geopandas
+  - descartes
+  - pygeos
   - pyarrow>=2.0.0
 
   # dev dependencies
