@@ -129,14 +129,10 @@ dmypy.json
 .pyre/
 
 # Custom
-data/outputs/*
-!data/outputs/.gitkeep
-data/inputs/*
-!data/inputs/.gitkeep
-*data/roughwork/*
-!data/roughwork/.gitkeep
-*data/spatial/*
-!data/spatial/.gitkeep
+/data/inputs/*
+/data/outputs/*
+/data/roughwork/*
+/data/spatial/*
 *.ipynb
 api_keys.txt
 cache/
